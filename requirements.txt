@@ -1,0 +1,25 @@
+# Core AI/LLM packages
+openai>=1.0.0
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-openai==0.3.9
+langchain-core==0.3.83
+langgraph==0.6.10
+langgraph-checkpoint==2.1.2
+
+# Web automation
+playwright>=1.40.0
+nest-asyncio>=1.5.8
+
+# Data validation
+pydantic>=2.0.0
+
+# UI
+gradio>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional: Development tools
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
