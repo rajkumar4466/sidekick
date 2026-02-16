@@ -55,9 +55,10 @@ sidekick/
 
 ### Installation
 
-1. **Clone or navigate to the project directory:**
+1. **Clone the repository:**
    ```bash
-   cd /Users/mithra_sundaram/Desktop/code/AI/projects/sidekick
+   git clone https://github.com/yourusername/sidekick.git
+   cd sidekick
    ```
 
 2. **Create a virtual environment:**
@@ -86,7 +87,6 @@ sidekick/
 
 **Option 1: Direct Python execution**
 ```bash
-cd /Users/mithra_sundaram/Desktop/code/AI/projects/sidekick
 source .venv/bin/activate
 python main.py
 ```
@@ -161,8 +161,8 @@ Maintains conversation state across turns using `MemorySaver` - each thread has 
 Make sure you're in the correct directory and using the virtual environment:
 
 ```bash
-cd /Users/mithra_sundaram/Desktop/code/AI/projects/agents
-.venv/bin/python 4_langgraph/sidekick/main.py
+source .venv/bin/activate
+python main.py
 ```
 
 ### Playwright Issues
